@@ -1,4 +1,4 @@
-package com.example.dataflick;
+package org.dataflick;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
