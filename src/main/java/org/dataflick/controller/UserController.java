@@ -1,4 +1,5 @@
 package org.dataflick.controller;
+import org.dataflick.controller.request.UserRequest;
 import org.dataflick.service.UserService;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -11,11 +12,12 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class UserController {
     @Autowired
-    //autowired is used to make the obj for that class file-userSer..
-
+    //autowired is used to make bin (internal obj for that class file-userSer..
     private UserService userService;
 
     //write many function inside it related the user
+    //RESTAPI had many method -get(data get from user),set,post
+    //PostMapping  method is used to post our user info
     @PostMapping("/user-registration")
     public void userRegistration(@RequestBody UserRequest request){
         System.out.println("Controller get the request from the user :: " + request);
