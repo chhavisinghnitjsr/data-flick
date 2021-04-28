@@ -3,6 +3,32 @@
 
 # data-flick
 A data quality validation framework
+
+### DataSource
+    
+```json
+{
+    "name": "my_postgres_datasource",
+    "url": "localhost:5432",
+    "options": {
+      "user": "postgres",
+      "password": "admin"
+    },
+    "type": "DATABASE",
+    "system": "POSTGRES"
+}
+```
+
+```json
+{
+    "name": "my_file_datasource",
+    "url": "c:/data/test/abc.csv",
+    "options": {
+    },
+    "type": "FILE",
+    "system": "CSV"
+}
+```
 ##### Flow of our Code
 ###### -> src
 ###### ----->main
