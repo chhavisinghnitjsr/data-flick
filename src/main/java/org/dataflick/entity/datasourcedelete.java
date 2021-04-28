@@ -26,4 +26,5 @@ public class datasourcedelete {
         @Column(name = "source_type")
         private SourceType type;
     }
+
 }

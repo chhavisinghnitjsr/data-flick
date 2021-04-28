@@ -2,7 +2,6 @@ package org.dataflick.entity;
 import org.dataflick.core.DBSystem;
 import org.dataflick.core.SourceType;
 import org.hibernate.annotations.GenericGenerator;
-
 import javax.persistence.*;
 import java.util.UUID;
 

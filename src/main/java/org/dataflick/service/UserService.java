@@ -7,7 +7,6 @@ import org.springframework.stereotype.Service;
 
 import java.util.Date;
 
-
 @Service
 public class UserService {
     @Autowired
@@ -25,7 +24,6 @@ public class UserService {
         user.setCreatedAt(new Date());
         user.setEmailVerified(false);
         userDao.createUser(user);
-
 
     }
 
