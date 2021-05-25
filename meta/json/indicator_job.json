@@ -1,0 +1,53 @@
+{
+  "data": {
+    "database": "string",
+    "schema": "string",
+    "table": "string",
+    "columns": [],
+    "source": {
+      "name": "string",
+      "url": "string",
+      "params": {
+        "user": "string",
+        "password": "string",
+        "database": "string",
+        "schema": "string",
+        "table": "string",
+        "columns": []
+      },
+      "type": "string",
+      "system": "string"
+    },
+    "target": {
+      "name": "string",
+      "url": "string",
+      "params": {
+        "user": "string",
+        "password": "string",
+        "database": "string",
+        "schema": "string",
+        "table": "string",
+        "columns": []
+      },
+      "type": "string",
+      "system": "string"
+    }
+  },
+  "indicators": {
+    "name": [
+    ],
+    "group": [
+    ]
+  },
+  "reference_id": "string",
+  "job_name": "string",
+  "notification": {
+    "recipient_address": [
+
+    ]
+  },
+  "tags":[],
+  "timeout": {
+    "attempt_duration_seconds": "number"
+  }
+}
